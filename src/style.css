@@ -103,18 +103,18 @@
 	background-color: whitesmoke;
     transform-origin: top left;
     margin-top: -61px;
-    margin-left: -50px;
+    margin-left: -45.5px;
 	transform: skew(5deg, 4deg);
     z-index: -10;
     border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid transparent;
     border-left: 2px solid black;
-}
+} 
 
 .aboutMeText::before{ /*diagonal del top*/
 	position: absolute;
 	content: "";
-	width: 100%;
+	width: 99.9%;
 	height: 51%;
 	top: 0;
     left: 0;
@@ -127,4 +127,18 @@
     border-top: 2px solid black;
     border-right: 2px solid black;
     border-left: 2px solid black;
+}
+
+.skillsPhoto{
+    display: flex;
+    float: left;
+    margin-top: 70px;
+    position: relative;
+    background-color: whitesmoke;
+    width: 40%;
+    height: 700px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 10px;
 }
