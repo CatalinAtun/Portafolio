@@ -13,8 +13,8 @@
 
 .title{
     position: relative;
-    background-color: gray;
-    height: 400px;
+    background-color: whitesmoke;
+    height: 450px;
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -27,10 +27,104 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: gray;
+	background-color: whitesmoke;
 	transform-origin: bottom left;
-	transform: skewY(3deg);
+	transform: skewY(5deg);
     z-index: -10;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
+}
+
+.aboutMe{
+    display: flex;
+    float: left;
+    margin-top: 70px;
+    position: relative;
+    background-color: whitesmoke;
+    width: 48%;
+    height: 500px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.aboutMe::after{ /*diagonal de la derecha */
+    position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: whitesmoke;
+	transform-origin: top left;
+	transform: skew(5deg);
+    z-index: -10;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.aboutMe::before{ /*diagonal del top*/
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 50%;
+	top: 0;
+    left: 0;
+	background-color: whitesmoke;
+	transform-origin: top right;
+	transform: skewY(5deg);
+    z-index: -10;
+    margin-top: -3px;
+    margin-left: -2px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.aboutMeText{
+    display: flex;
+    float: right;
+    margin-top: 130px;
+    position: relative;
+    background-color: whitesmoke;
+    width: 47%;
+    height: 440px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.aboutMeText::after{ /*diagonal de la izquierda*/
+    position: absolute;
+	content: "";
+	width: 10%;
+	height: 113%;
+	top: 0;
+    left: 0;
+	background-color: whitesmoke;
+    transform-origin: top left;
+    margin-top: -61px;
+    margin-left: -50px;
+	transform: skew(5deg, 4deg);
+    z-index: -10;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.aboutMeText::before{ /*diagonal del top*/
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 51%;
+	top: 0;
+    left: 0;
+	background-color: whitesmoke;
+	transform-origin: top right;
+	transform: skewY(5deg);
+    z-index: -10;
+    margin-top: -3px;
+    margin-left: -2px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
 }
