@@ -41,7 +41,7 @@
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
-    width: 48%;
+    width: 48.5%;
     height: 500px;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -138,7 +138,46 @@
     width: 40%;
     height: 700px;
     border-left: 2px solid black;
-    border-bottom: 2px solid black;
     border-top: 2px solid black;
     margin-top: 10px;
 }
+
+.skillsPhoto::after{ /*diagonal de la izquierda*/
+    position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: whitesmoke;
+	transform-origin: top left;
+	transform: skew(-5deg);
+    z-index: -10;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    margin-left: 62px;
+    margin-top: -2px;
+} 
+
+.skillsPhoto::before{ /*diagonal del top*/
+	position: absolute;
+	content: "";
+	width: 99.9%;
+	height: 51%;
+	top: 0;
+    left: 0;
+	background-color: whitesmoke;
+	transform-origin: top right;
+	transform: skewY(-15deg);
+    z-index: -10;
+    margin-top: 342px;
+    margin-left: -2px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+
+
