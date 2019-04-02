@@ -1,16 +1,3 @@
-/*.title {
-    text-align: center;
-    background-color: gray;
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 4px;
-
-    width:98%;
-    height:80%;
-    transform: skewY(4deg); 
-    border:2px solid black
-} */
-
 .title{
     position: relative;
     background-color: whitesmoke;
@@ -256,10 +243,6 @@
     border-bottom: 2px solid black;
     margin-top: 160px;
 }
-
-.project1::after{ /*diagonal de la izquierda*/
-    
-} 
 
 .project1::before{ /*diagonal del top*/
 	position: absolute;
