@@ -1,15 +1,18 @@
-/*.title {
-    text-align: center;
-    background-color: gray;
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 4px;
+.container {
+    transform: scale(1.0);
+}
 
-    width:98%;
-    height:80%;
-    transform: skewY(4deg); 
-    border:2px solid black
-} */
+@media screen and (max-width: 600px) {
+    .container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 3840px) {
+    .container {
+        transform: scale(1.94);
+    }
+}
 
 .title{
     position: relative;
@@ -256,10 +259,6 @@
     border-bottom: 2px solid black;
     margin-top: 160px;
 }
-
-.project1::after{ /*diagonal de la izquierda*/
-    
-} 
 
 .project1::before{ /*diagonal del top*/
 	position: absolute;
