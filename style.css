@@ -1,10 +1,13 @@
-body {
-    transform: scale(1.47)
-}
+/* 1340 / 640 = 2.09 */
+
+/*.container {
+    transform: scale(0.9)
+} */
 
 .title{
     position: relative;
     background-color: whitesmoke;
+    width: 1320px;
     height: 450px;
     border-top: 2px solid black;
     border-left: 2px solid black;
@@ -14,8 +17,8 @@ body {
 .title::after{
     position: absolute;
 	content: "";
-	width: 100%;
-	height: 100%;
+	width: 1320px;
+	height: 450px;
 	top: 0;
 	left: 0;
 	background-color: whitesmoke;
@@ -32,7 +35,7 @@ body {
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
-    width: 48.5%;
+    width: 640px;
     height: 500px;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -41,8 +44,8 @@ body {
 .aboutMe::after{ /*diagonal de la derecha */
     position: absolute;
 	content: "";
-	width: 100%;
-	height: 100%;
+	width: 640px;
+	height: 500px;
 	top: 0;
 	left: 0;
 	background-color: whitesmoke;
@@ -56,8 +59,8 @@ body {
 .aboutMe::before{ /*diagonal del top*/
 	position: absolute;
 	content: "";
-	width: 100%;
-	height: 50%;
+	width: 640px;
+	height: 500px;
 	top: 0;
     left: 0;
 	background-color: whitesmoke;
@@ -78,7 +81,7 @@ body {
     margin-top: 130px;
     position: relative;
     background-color: whitesmoke;
-    width: 47%;
+    width: 624px;
     height: 440px;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -87,8 +90,8 @@ body {
 .aboutMeText::after{ /*diagonal de la izquierda*/
     position: absolute;
 	content: "";
-	width: 10%;
-	height: 113%;
+	width: 60px;
+	height: 498px;
 	top: 0;
     left: 0;
 	background-color: whitesmoke;
@@ -105,8 +108,8 @@ body {
 .aboutMeText::before{ /*diagonal del top*/
 	position: absolute;
 	content: "";
-	width: 99.9%;
-	height: 51%;
+	width: 625px;
+	height: 200px;
 	top: 0;
     left: 0;
 	background-color: whitesmoke;
@@ -116,7 +119,7 @@ body {
     margin-top: -3px;
     margin-left: -2px;
     border-top: 2px solid black;
-    border-right: 2px solid black;
+    
     border-left: 2px solid black;
 }
 
@@ -126,7 +129,7 @@ body {
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
-    width: 40%;
+    width: 530px;
     height: 700px;
     border-left: 2px solid black;
     border-top: 2px solid black;
@@ -136,8 +139,8 @@ body {
 .skillsPhoto::after{ /*diagonal de la izquierda*/
     position: absolute;
 	content: "";
-	width: 100%;
-	height: 100%;
+	width: 530px;
+	height: 700px;
 	top: 0;
 	left: 0;
 	background-color: whitesmoke;
@@ -153,8 +156,8 @@ body {
 .skillsPhoto::before{ /*diagonal del top*/
 	position: absolute;
 	content: "";
-	width: 99.9%;
-	height: 51%;
+	width: 530px;
+	height: 355px;
 	top: 0;
     left: 0;
 	background-color: whitesmoke;
@@ -175,7 +178,7 @@ body {
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
-    width: 50%;
+    width: 660px;
     height: 400px;
     border-right: 2px solid black;
     border-top: 2px solid black;
@@ -186,8 +189,8 @@ body {
 .skills::after{ /*diagonal de la izquierda*/
     position: absolute;
 	content: "";
-	width: 100%;
-	height: 100%;
+	width: 100px;
+	height: 400px;
 	top: 0;
 	left: 0;
 	background-color: whitesmoke;
@@ -208,7 +211,7 @@ body {
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
-    width: 52.65%;
+    width: 696px;
     height: 285px;;
     border-right: 2px solid black;
     border-top: 2px solid black;
@@ -219,7 +222,7 @@ body {
 .skills2::after{ /*diagonal de la izquierda*/
     position: absolute;
 	content: "";
-	width: 100%;
+	width: 600px;
 	height: 100%;
 	top: 0;
 	left: 0;
@@ -235,7 +238,7 @@ body {
     margin-top: -2px;
 } 
 
-.project1{ /*data lovers*/
+/* .project1{ 
     display: flex;
     float: left;
     position: relative;
@@ -248,7 +251,7 @@ body {
     margin-top: 160px;
 }
 
-.project1::before{ /*diagonal del top*/
+.project1::before{ /*diagonal del top
 	position: absolute;
 	content: "";
 	width: 83.5%;
@@ -265,4 +268,4 @@ body {
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
-
+*/
