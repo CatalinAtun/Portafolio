@@ -1,0 +1,29 @@
+.title {
+    position: relative;
+    width: 1334px;
+    height: 750px;
+    background-color: salmon;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0 58%);
+    }
+
+.aboutMe {
+    display: flex;
+    float: left;
+    width: 900px;
+    height: 600px;
+    background-color: salmon;
+    clip-path: polygon(0 0, 72% 12%, 78% 100%, 0 100%);
+    margin-top: -305px;
+}
+
+.aboutMeText {
+    display: flex;
+    float: right;
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    clip-path: polygon(0 3%, 72% 12%, 73% 100%, 4% 100%);
+    margin-top: -180px;
+}
+
+
