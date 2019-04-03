@@ -1,3 +1,7 @@
+body {
+    transform: scale(1.47)
+}
+
 .title{
     position: relative;
     background-color: whitesmoke;
