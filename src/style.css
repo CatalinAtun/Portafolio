@@ -254,11 +254,11 @@
 
 .project2{ 
     position: relative;
-    top: -1725px;
+    top: -1727px;
     left: 445px;
     background-color: whitesmoke;
     width: 430px;
-    height: 518px;
+    height: 520px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -285,11 +285,11 @@
 
 .project3{ 
     position: relative;
-    top: -2530px;
+    top: -2527px;
     left: 890px;
     background-color: whitesmoke;
     width: 430px;
-    height: 643px;
+    height: 638px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -316,7 +316,7 @@
 
 .contact{
     position: relative;
-    top: -2520px;
+    top: -2516px;
     position: relative;
     background-color: whitesmoke;
     width: 700px;
@@ -344,7 +344,7 @@
 
 .contactPhoto{
     position: relative;
-    top: -3224px;
+    top: -3220px;
     left: 850px;
     position: relative;
     background-color: whitesmoke;
