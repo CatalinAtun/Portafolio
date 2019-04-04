@@ -314,5 +314,61 @@
     border-right: 2px solid black;
 }
 
+.contact{
+    position: relative;
+    top: -2520px;
+    position: relative;
+    background-color: whitesmoke;
+    width: 700px;
+    height: 700px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.contact::after{ /*diagonal de la izquierda*/
+    position: absolute;
+	content: "";
+	width: 530px;
+	height: 700px;
+	background-color: whitesmoke;
+	transform-origin: top left;
+	transform: skew(-5deg);
+    z-index: 10;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 250px;
+    margin-top: -2px;
+} 
+
+.contactPhoto{
+    position: relative;
+    top: -3224px;
+    left: 850px;
+    position: relative;
+    background-color: whitesmoke;
+    width: 472px;
+    height: 700px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.contactPhoto::after{ /*diagonal de la izquierda*/
+    position: absolute;
+	content: "";
+	width: 160px;
+	height: 700px;
+	background-color: whitesmoke;
+	transform-origin: top left;
+	transform: skew(-5deg);
+    z-index: -10;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: -54px;
+    margin-top: -2px;
+} 
 
 
