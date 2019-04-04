@@ -30,8 +30,7 @@
 }
 
 .aboutMe{
-    display: flex;
-    float: left;
+    display: relative;
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
@@ -76,8 +75,9 @@
 }
 
 .aboutMeText{
-    display: flex;
-    float: right;
+    display: relative;
+    left: 698px;
+    top: -573px;
     margin-top: 130px;
     position: relative;
     background-color: whitesmoke;
@@ -124,8 +124,8 @@
 }
 
 .skillsPhoto{
-    display: flex;
-    float: left;
+    position: relative;
+    top: -574px;
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
@@ -173,8 +173,9 @@
 }
 
 .skills{
-    display: flex;
-    float: right;
+    position: relative;
+    left: 662px;
+    top: -1286px;
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
@@ -206,8 +207,9 @@
 } 
 
 .skills2{
-    display: flex;
-    float: right;
+    position: relative;
+    top: -1287px;
+    left: 626px;
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
