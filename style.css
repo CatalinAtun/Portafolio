@@ -1,9 +1,4 @@
 /* 1340 / 640 = 2.09 */
-
-/*.container {
-    transform: scale(0.9)
-} */
-
 .title{
     position: relative;
     background-color: whitesmoke;
@@ -30,7 +25,7 @@
 }
 
 .aboutMe{
-    display: relative;
+    position: relative;
     margin-top: 70px;
     position: relative;
     background-color: whitesmoke;
@@ -75,11 +70,10 @@
 }
 
 .aboutMeText{
-    display: relative;
+    position: relative;
     left: 698px;
     top: -573px;
     margin-top: 130px;
-    position: relative;
     background-color: whitesmoke;
     width: 624px;
     height: 440px;
@@ -92,8 +86,6 @@
 	content: "";
 	width: 60px;
 	height: 498px;
-	top: 0;
-    left: 0;
 	background-color: whitesmoke;
     transform-origin: top left;
     margin-top: -61px;
@@ -110,8 +102,6 @@
 	content: "";
 	width: 625px;
 	height: 200px;
-	top: 0;
-    left: 0;
 	background-color: whitesmoke;
 	transform-origin: top right;
 	transform: skewY(5deg);
@@ -119,7 +109,6 @@
     margin-top: -3px;
     margin-left: -2px;
     border-top: 2px solid black;
-    
     border-left: 2px solid black;
 }
 
@@ -141,8 +130,6 @@
 	content: "";
 	width: 530px;
 	height: 700px;
-	top: 0;
-	left: 0;
 	background-color: whitesmoke;
 	transform-origin: top left;
 	transform: skew(-5deg);
@@ -158,8 +145,6 @@
 	content: "";
 	width: 530px;
 	height: 355px;
-	top: 0;
-    left: 0;
 	background-color: whitesmoke;
 	transform-origin: top right;
 	transform: skewY(-15deg);
@@ -191,8 +176,6 @@
 	content: "";
 	width: 300px;
 	height: 600px;
-	top: 0;
-	left: 0;
 	background-color: whitesmoke;
 	transform-origin: top right;
 	transform: skew(-5deg);
@@ -208,8 +191,6 @@
 	content: "";
 	width: 774px;
 	height: 150px;
-	top: 0;
-    left: 0;
     margin-top: 545px;
     margin-left: -116px;
 	background-color: whitesmoke;
