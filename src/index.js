@@ -1,13 +1,11 @@
-/* window.onload = (
+window.onload = (
     function wAndH() {
-        let razon = screen.width / screen.height;
-        let hola = 1.175 / razon
-        let hola2 = 'scale('+ hola + ')';
-        console.log(hola2)
-        document.documentElement.style
-            .setProperty('transform', hola2)
+        let scale = screen.width / 1366;
+        let toScale = 'scale('+ scale + ')';
+        comic.style
+            .setProperty('transform', toScale)
     }
-) */
+) 
 /* 1340 / 640 = 2.09 */
 /* 1366 / 768 = 1.175*/
 

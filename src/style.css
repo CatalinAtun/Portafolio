@@ -1,4 +1,8 @@
 /* 1340 / 640 = 2.09 */
+
+.container {
+    transform-origin: 0 0;
+}
 .title{
     position: relative;
     background-color: whitesmoke;
