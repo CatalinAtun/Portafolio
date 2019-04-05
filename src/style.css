@@ -1,5 +1,69 @@
 /* 1340 / 640 = 2.09 */
 
+.react { /* al usar position absolute toma el margin, sino lo ignora*/ 
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -40px;
+    width: 120px;
+}
+
+.js-html-css {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 390px;
+}
+
+.bootstrap {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 470px;
+    width: 150px;
+}
+
+.node {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 110px;
+    width: 150px;
+}
+
+.npm {
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 330px;
+    width: 150px;
+}
+
+.slack {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -490px;
+    width: 250px;
+}
+
+.github {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: -40px;
+    width: 150px;
+}
+
+.photoshop {
+    
+    width: 200px;
+}
+
+.git, .illustrator  {
+    width: 200px;
+}
+
+.firebase {
+    width: 300px;
+}
+
+
+
 .container {
     transform-origin: 0 0;
     height: 3030px;
@@ -75,6 +139,31 @@
     border-left: 2px solid black;
 }
 
+.aboutMeTitle {
+    position: relative;
+    top: -13px;
+    width: 500px;
+    height: 20px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.aboutMeTitle::after{
+    position: absolute;
+	content: "";
+	width: 500px;
+    height: 45px;
+    margin-top: -26px;
+	top: 0;
+	left: 0;
+	background-color: whitesmoke;
+	transform-origin: bottom left;
+	transform: skewY(5deg);
+    z-index: 10;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
 .aboutMeText{
     position: relative;
     left: 698px;
@@ -94,7 +183,7 @@
 	height: 498px;
 	background-color: whitesmoke;
     transform-origin: top left;
-    margin-top: -61px;
+    margin-top: -118px;
     margin-left: -45.5px;
 	transform: skew(5deg, 4deg);
     z-index: -10;
@@ -188,8 +277,8 @@
     z-index: -10;
     border-top: 2px solid black;
     border-left: 2px solid black;
-    margin-left: -55px;
-    margin-top: -2px;
+    margin-left: -659px;
+    margin-top: -494px;
 } 
 
 .skills::before{
@@ -357,5 +446,6 @@
     margin-left: -54px;
     margin-top: -2px;
 } 
+
 
 
