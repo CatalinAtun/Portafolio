@@ -1,4 +1,23 @@
 /* 1340 / 640 = 2.09 */
+.bocadillo {
+    position: absolute;
+    top: -20px;
+    left: 100px; 
+    width: 1000px;
+    transform-origin: 0 0;
+    transform: rotate(4deg);
+    z-index: 100
+}
+
+.photo1{
+    position: absolute;
+    top: 175px;
+    left: 850px;
+    width: 450px;
+    transform-origin: 0 0;
+    transform: rotate(5deg);
+    z-index: 50
+}
 
 .react { /* al usar position absolute toma el margin, sino lo ignora*/ 
     position: absolute;
@@ -34,6 +53,7 @@
     margin-left: 330px;
     width: 150px;
 }
+
 
 .slack {
     position: absolute;
@@ -89,7 +109,7 @@
 	background-color: whitesmoke;
 	transform-origin: bottom left;
 	transform: skewY(5deg);
-    z-index: -10;
+    z-index: -100;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
 }
