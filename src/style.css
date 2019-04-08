@@ -1,8 +1,19 @@
 /* 1340 / 640 = 2.09 */
+
+
+
+@media only screen and (max-width: 880px) {
+    .title {
+        position: absolute;
+       width: 300px;
+    }
+   }
+
+
 .bocadillo {
     position: absolute;
     top: -20px;
-    left: 100px; 
+    left: 250px; 
     width: 1000px;
     transform-origin: 0 0;
     transform: rotate(4deg);
@@ -11,75 +22,157 @@
 
 .photo1{
     position: absolute;
-    top: 175px;
-    left: 850px;
-    width: 450px;
+    top: 25px;
+    left: 2.5px;
+    width: 300px;
     transform-origin: 0 0;
-    transform: rotate(5deg);
+    transform: rotate(1deg);
     z-index: 50
 }
 
+.photo2 {
+    position: absolute;
+    top: 27.5px;
+    left: -180px;
+    transform-origin: 0 0;
+    transform: rotate(-2deg);
+    z-index: 50
+}
+
+.photo3 {
+    position: absolute;
+    top: 27.5px;
+    left: -100px;
+    height: 700px;
+    transform-origin: 0 0;
+    transform: rotate(-2deg);
+    z-index: 50
+}
+
+.project1Photo{
+    position: absolute;
+    top: -2px;
+    width: 300px;
+    height: 350px;
+    left: 60px;
+    z-index: -10;
+}
+
+.demoButton1 {
+    position: absolute;
+    top: 360px;
+    left: 100px;
+}
+
+.codeButton1 {
+    position: absolute;
+    top: 360px;
+    left: 235px;
+}
+
+.fronteraTitle {
+    position: absolute;
+    width: 10px;
+    z-index: 100;
+}
+
+.aboutMePhotoText{
+    position: absolute;
+    top: -113px;
+    left: -17px;
+}
+
+.bocadilloSkills {
+    position: absolute;
+    top: -80px;
+    left: 450px;
+    width: 260px;
+    z-index: 100;
+    transform-origin: 0 0;
+    transform: rotate(10deg)
+}
+
+
+
+
+
+
 .react { /* al usar position absolute toma el margin, sino lo ignora*/ 
     position: absolute;
-    margin-top: 130px;
-    margin-left: -40px;
-    width: 120px;
+    margin-top: 160px;
+    margin-left: 455px;
+    width: 150px;
+    height: 150px;
 }
 
 .js-html-css {
     position: absolute;
-    margin-top: 20px;
-    margin-left: 100px;
-    width: 390px;
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 400px;
 }
 
 .bootstrap {
     position: absolute;
-    margin-top: 55px;
-    margin-left: 470px;
-    width: 150px;
+    margin-top: 350px;
+    margin-left: 440px;
+    width: 180px;
+    height: 120px;
 }
 
 .node {
     position: absolute;
-    margin-top: 150px;
-    margin-left: 110px;
+    margin-top: 10px;
+    margin-left: 450px;
     width: 150px;
 }
 
 .npm {
     position: absolute;
-    margin-top: 210px;
-    margin-left: 330px;
+    margin-top: 490px;
+    margin-left: 200px;
     width: 150px;
 }
 
 
 .slack {
     position: absolute;
-    margin-top: 270px;
-    margin-left: -490px;
+    margin-top: 370px;
+    margin-left: -70px;
     width: 250px;
 }
 
 .github {
     position: absolute;
-    margin-top: 290px;
+    margin-top: 550px;
     margin-left: -40px;
     width: 150px;
 }
 
 .photoshop {
-    
+    position: absolute;
     width: 200px;
 }
 
-.git, .illustrator  {
+.git {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -60px;
     width: 200px;
 }
 
-.firebase {
-    width: 300px;
+.illustrator {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 180px;
+    width: 200px;
+}
+
+.photoshop {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 180px;
+    width: 220px;
 }
 
 
@@ -129,7 +222,7 @@
     position: absolute;
 	content: "";
 	width: 640px;
-	height: 500px;
+	height: 499.5px;
 	top: 0;
 	left: 0;
 	background-color: whitesmoke;
@@ -159,31 +252,6 @@
     border-left: 2px solid black;
 }
 
-.aboutMeTitle {
-    position: relative;
-    top: -13px;
-    width: 500px;
-    height: 20px;
-    border-right: 2px solid black;
-    text-align: center;
-}
-
-.aboutMeTitle::after{
-    position: absolute;
-	content: "";
-	width: 500px;
-    height: 45px;
-    margin-top: -26px;
-	top: 0;
-	left: 0;
-	background-color: whitesmoke;
-	transform-origin: bottom left;
-	transform: skewY(5deg);
-    z-index: 10;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-}
-
 .aboutMeText{
     position: relative;
     left: 698px;
@@ -203,7 +271,7 @@
 	height: 498px;
 	background-color: whitesmoke;
     transform-origin: top left;
-    margin-top: -118px;
+    margin-top: -60.5px;
     margin-left: -45.5px;
 	transform: skew(5deg, 4deg);
     z-index: -10;
@@ -297,8 +365,8 @@
     z-index: -10;
     border-top: 2px solid black;
     border-left: 2px solid black;
-    margin-left: -659px;
-    margin-top: -494px;
+    margin-left: -54.5px;
+    margin-top: -2px;
 } 
 
 .skills::before{
@@ -328,6 +396,7 @@
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     margin-top: 160px;
+    z-index: -10;
 }
 
 .project1::before{ /*diagonal del top*/
