@@ -1,4 +1,6 @@
 /* 1340 / 640 = 2.09 */
+
+/* Imágenes insertadas */ 
 .bocadillo {
     position: absolute;
     top: -20px;
@@ -38,6 +40,9 @@
     z-index: 50
 }
 
+
+/* Proyectos */
+
 .project1Photo, .project2Photo, .project3Photo{
     position: absolute;
     width: 300px;
@@ -48,30 +53,114 @@
     border-radius: 5px
 }
 
-.project1Photo{
-    top: -2px;
+.project1Photo{ /* Frontera */
+    top: 50px;
 }   
 
-.project2Photo{
+.project2Photo{ /* Cipher */
     top: 60px;
 }
 
-.project3Photo{
-    top: 100px
+.project3Photo{ /* Data lovers */ 
+    top: -10px
 }
 
-.demoButton1 {
+/* Botones */
+
+
+/* Hover de todos */ 
+
+.demoButton1:hover, .moreInformation1:hover, .codeButton1:hover, .demoButton2:hover, .moreInformation2:hover, .codeButton2:hover, .demoButton3:hover, .moreInformation3:hover, .codeButton3:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+/* FRONTERA */ 
+
+.demoButton1, .moreInformation1, .codeButton1 {
+    border: none;
+    background-color: #FF3C7E;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.demoButton1 { 
     position: absolute;
-    top: 360px;
-    left: 100px;
-    z-index: 100;
+    top: 440px;
+    left: 65px;
+    
+}
+
+.moreInformation1{
+    position: absolute;
+    top: 440px;
+    left: 153px;
 }
 
 .codeButton1 {
     position: absolute;
-    top: 360px;
-    left: 235px;
+    top: 440px;
+    left: 300px;
 }
+
+/* CIPHER */ 
+
+.demoButton2, .moreInformation2, .codeButton2 {
+    border: none;
+    background-color: #00C100;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.demoButton2 {
+    position: absolute;
+    top: 450px;
+    left: 65px;
+}
+
+.moreInformation2{
+    position: absolute;
+    top: 450px;
+    left: 153px;
+}
+
+.codeButton2 {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+/* DATA LOVERS */ 
+
+.demoButton3, .moreInformation3, .codeButton3 {
+    border: none;
+    background-color: #C47021;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.demoButton3 {
+    position: absolute;
+    top: 360px;
+    left: 65px;
+}
+
+.moreInformation3{
+    position: absolute;
+    top: 360px;
+    left: 153px;
+}
+
+.codeButton3 {
+    position: absolute;
+    top: 360px;
+    left: 300px;
+}
+
+
+
+/* Titulos de proyectos */ 
 
 .fronteraTitle {
     position: absolute;
@@ -95,6 +184,8 @@
     top: -168px;
 }
 
+
+
 .aboutMePhotoText{
     position: absolute;
     top: -113px;
@@ -111,10 +202,20 @@
     transform: rotate(10deg)
 }
 
+.projects{
+    position: absolute;
+    z-index: 100;
+    width: 300px;
+    top: 1600px;
+    left: 80px;
+    transform: rotate(-20deg)
+}
 
 
 
 
+
+/* Skills */
 
 .react { /* al usar position absolute toma el margin, sino lo ignora*/ 
     position: absolute;
@@ -195,6 +296,7 @@
 }
 
 
+/* Divs diagonales */ 
 
 .container {
     transform-origin: 0 0;
