@@ -1,15 +1,4 @@
 /* 1340 / 640 = 2.09 */
-
-
-
-@media only screen and (max-width: 880px) {
-    .title {
-        position: absolute;
-       width: 300px;
-    }
-   }
-
-
 .bocadillo {
     position: absolute;
     top: -20px;
@@ -49,19 +38,33 @@
     z-index: 50
 }
 
-.project1Photo{
+.project1Photo, .project2Photo, .project3Photo{
     position: absolute;
-    top: -2px;
     width: 300px;
     height: 350px;
-    left: 60px;
-    z-index: -10;
+    left: 65px;
+    z-index: 10;
+    border: 2px solid black;
+    border-radius: 5px
+}
+
+.project1Photo{
+    top: -2px;
+}   
+
+.project2Photo{
+    top: 60px;
+}
+
+.project3Photo{
+    top: 100px
 }
 
 .demoButton1 {
     position: absolute;
     top: 360px;
     left: 100px;
+    
 }
 
 .codeButton1 {
