@@ -64,7 +64,7 @@
     position: absolute;
     top: 360px;
     left: 100px;
-    
+    z-index: 100;
 }
 
 .codeButton1 {
@@ -75,8 +75,24 @@
 
 .fronteraTitle {
     position: absolute;
-    width: 10px;
+    width: 497px;
     z-index: 100;
+    left: -55px;
+    top: -190px;
+}
+
+.cipherTitle{
+    position: absolute;
+    z-index: 100;
+    left: -22px;
+    top: -170px;
+}
+
+.dataLoversTitle{
+    position: absolute;
+    z-index: 100;
+    left: -21px;
+    top: -168px;
 }
 
 .aboutMePhotoText{
@@ -399,7 +415,6 @@
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     margin-top: 160px;
-    z-index: -10;
 }
 
 .project1::before{ /*diagonal del top*/
@@ -412,7 +427,6 @@
 	background-color: whitesmoke;
 	transform-origin: top right;
 	transform: skewY(-15deg);
-    z-index: -10;
     margin-left: -2px;
     margin-top: -148px;
     border-top: 2px solid black;
