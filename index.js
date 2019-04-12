@@ -3,7 +3,7 @@ window.onload = (
         const title = document.getElementById('comic');
         let scale = screen.width / 1360;
         let toScale = 'scale(' + scale + 'px)';
-        comic.style
+        title.style
             .setProperty('transform', toScale)
     }
 )
