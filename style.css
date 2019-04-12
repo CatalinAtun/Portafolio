@@ -259,7 +259,7 @@
 .title{
     position: relative;
     background-color: whitesmoke;
-    width: 1320px;
+    /*width: 1320px;*/
     height: 450px;
     border-top: 2px solid black;
     border-left: 2px solid black;
@@ -269,7 +269,7 @@
 .title::after{
     position: absolute;
 	content: "";
-	width: 1320px;
+	width: 1266px;
 	height: 450px;
 	top: 0;
 	left: 0;

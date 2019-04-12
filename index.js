@@ -1,7 +1,7 @@
 window.onload = (
     function wAndH() {
         const title = document.getElementById('comic');
-        let scale = screen.width / 1360;
+        let scale = screen.width / 1200;
         let toScale = 'scale(' + scale + 'px)';
         title.style
             .setProperty('transform', toScale)
