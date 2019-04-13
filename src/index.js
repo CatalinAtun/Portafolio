@@ -6,7 +6,8 @@ window.onload = (
         title.style
             .setProperty('transform', toScale)
     }
-)
+);
+
 
 
 /* 1340 / 640 = 2.09 */
