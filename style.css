@@ -608,31 +608,47 @@
     margin-top: -2px;
 } 
 
+.start{
+    display:none;
+}
+
     @media screen and (max-width: 880px) {
+
     .title{
-        position: relative;
-        width: 100%;
-        height: auto;
+        position: fixed;
+        width: 99%;
+        height: 99.6%;
         border: 2px solid black;
         background-image: url("./images/textura16.jpg");
-    }
-    .title::after, .aboutMe::after, .aboutMe::before, .aboutMePhotoText, .aboutMeText::after, .aboutMeText::before, .photo2, .skillsPhoto::after, .skillsPhoto::before, .skills::after, .skills::before, .project1::before, .project2::before, .project3::before, .contact::after, .contactPhoto::after{
-        display: none;
+        z-index: 100;
+        top: 0;
+        left: 0;
     }
 
     .bocadillo {
         position: relative;
         width: 100%;
-        top: 4%;
+        top: 30%;
         left: 1%;
         transform-origin: 50% 50%;
         transform: rotate(-10deg);
     }
 
+    .startButton{
+        position: relative;
+        width: 50%;
+        top: 37%;
+        left: 25%
+    }
+
+    .title::after, .aboutMe::after, .aboutMe::before, .aboutMePhotoText, .aboutMeText::after, .aboutMeText::before, .photo2, .skillsPhoto::after, .skillsPhoto::before, .skills::after, .skills::before, .project1::before, .project2::before, .project3::before, .contact::after, .contactPhoto::after{
+        display: none;
+    }
+
     .aboutMe{
         position: relative;
         width: 100%;
-        height: 10%;
+        height: 12.5%;
         border: 2px solid black;
         margin-top: 1%;
     }
@@ -672,6 +688,7 @@
         top: 0;
         left: 0;
         background-color: rgb(39, 37, 150);
+        background-image: url("./images/textura17.jpg");
     }
 
     .skills > img {
