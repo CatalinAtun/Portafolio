@@ -13,13 +13,13 @@
 /* Imágenes insertadas */ 
 .bocadillo {
     position: absolute;
-    top: -20px;
-    left: 250px; 
+    top: -10px;
+    left: 200px; 
     width: 1000px;
     transform-origin: 0 0;
     transform: rotate(4deg);
     z-index: 10;
-    animation:rotate-center 3s ease-in-out 1s both
+    /* animation:rotate-center 3s ease-in-out both*/
 }
 
 .bocadilloStart {
@@ -42,8 +42,8 @@
 
 .photo2 { /* Skills foto */
     position: absolute;
-    top: 27.5px;
-    left: -180px;
+    top: 39px;
+    left: 0;
     transform-origin: 0 0;
     transform: rotate(-2deg);
     z-index: 50
@@ -103,11 +103,22 @@
 
 /* FRONTERA */ 
 
-.moreInformation1{
+.code1{
+    background: #FF2224;
+    position: absolute;
+    top: 430px;
+    left: 105px;
+    border: none;
+    background-color: #FF2224;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.demo1{
     background: #FF2224;
     position: absolute;
     top: 440px;
-    left: 153px;
+    left: 220px;
     border: none;
     background-color: #FF2224;
     padding: 10px;
@@ -117,10 +128,20 @@
 
 /* CIPHER */ 
 
-.moreInformation2 {
+.code2 {
     position: absolute;
-    top: 450px;
-    left: 153px;
+    top: 435px;
+    left: 105px;
+    border: none;
+    background-color: #FFDF00;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.demo2 {
+    position: absolute;
+    top: 435px;
+    left: 220px;
     border: none;
     background-color: #FFDF00;
     padding: 10px;
@@ -129,10 +150,21 @@
 
 /* DATA LOVERS */ 
 
-.moreInformation3 {
+.code3 {
     position: absolute;
-    top: 355px;
-    left: 153px;
+    top: 344px;
+    left: 100px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    background-color: #00A1D7;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.demo3{
+    position: absolute;
+    top: 344px;
+    left: 220px;
     font-family: 'Lato', sans-serif;
     border: none;
     background-color: #00A1D7;
@@ -146,32 +178,35 @@
 
 .fronteraTitle {
     position: absolute;
-    width: 497px;
+    width: 429px;
     z-index: 99;
-    left: -55px;
-    top: -190px;
+    left: -1px;
+    top: -150px;
 }
 
 .cipherTitle{
     position: absolute;
     z-index: 99;
-    left: -22px;
-    top: -170px;
+    width: 428px;
+    top: -150px;
 }
 
 .dataLoversTitle{
     position: absolute;
     z-index: 99;
-    left: -21px;
-    top: -168px;
+    width: 428px;;
+    top: -146px;
 }
 
 
 
 .aboutMePhotoText{
     position: absolute;
-    top: -113px;
-    left: -17px;
+    width: 400px;
+    top: -40px;
+    left: -30px;
+    z-index: 99;
+    transform: rotate(5deg)
 }
 
 .bocadilloSkills {
@@ -188,8 +223,8 @@
     position: absolute;
     z-index: 99;
     width: 300px;
-    top: 1600px;
-    left: 80px;
+    top: 1559px;
+    left: 200px;
     transform: rotate(-20deg)
 }
 
@@ -281,9 +316,11 @@
 /* Divs diagonales */ 
 
 body {
+    position: absolute;
     background-color: rgb(217, 219, 206);
     height: 3030px;
 }
+
 .container {
     transform-origin: 0 0;
     height: 3030px;
@@ -292,7 +329,7 @@ body {
 .title{
     position: relative;
     background-color: rgb(245, 235, 92);
-    width: 1320px;
+    width: 1322px;
     height: 450px;
     border-top: 2px solid black;
     border-left: 2px solid black;
@@ -316,16 +353,20 @@ body {
 
 .aboutMe{
     position: relative;
-    margin-top: 70px;
-    position: relative;
-    background-color: whitesmoke;
-    width: 640px;
-    height: 500px;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    width: 695px;
+    height: 570px;
+    border: 2px solid black;
+    background: url("./images/fondo3.png") 0 0 no-repeat;
+    -webkit-clip-path: polygon(0 0, 68% 9%, 87% 100%, 0% 100%);
+    clip-path: polygon(
+    0 2%,
+    92% 12%, 
+    98.5% 99%, 
+    0% 99%);
+
 }
 
-.aboutMe::after{ /*diagonal de la derecha */
+/*.aboutMe::after{ 
     position: absolute;
 	content: "";
 	width: 640px;
@@ -338,9 +379,11 @@ body {
     z-index: -10;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
+    background-image: url("./images/fondo3.png");
+    background-size: 100%
 }
 
-.aboutMe::before{ /*diagonal del top*/
+.aboutMe::before{ 
 	position: absolute;
 	content: "";
 	width: 640px;
@@ -357,8 +400,10 @@ body {
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-left: 2px solid black;
+    background: url("./images/fondo3.png") 0 0 no-repeat;
+    background-size: 100%
 
-}
+}*/
 
 .aboutMeText{
     position: relative;
@@ -414,6 +459,7 @@ body {
     border-left: 2px solid black;
     border-top: 2px solid black;
     margin-top: 10px;
+    background-image: url("./images/fondo4.gif")
 }
 
 .skillsPhoto::after{ /*diagonal de la izquierda*/
@@ -429,6 +475,7 @@ body {
     border-right: 2px solid black;
     margin-left: 62px;
     margin-top: -2px;
+    background-image: url("./images/fondo4.gif")
 } 
 
 .skillsPhoto::before{ /*diagonal del top*/
@@ -446,6 +493,7 @@ body {
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
+    background-image: url("./images/fondo4.gif")
 }
 
 .skills{
@@ -454,7 +502,7 @@ body {
     top: -1286px;
     margin-top: 70px;
     position: relative;
-    background-color: whitesmoke;
+    background-color: rgb(252, 233, 233);
     width: 660px;
     height: 487px;
     border-right: 2px solid black;
@@ -467,7 +515,7 @@ body {
 	content: "";
 	width: 300px;
 	height: 600px;
-	background-color: whitesmoke;
+	background-color: rgb(252, 233, 233);
 	transform-origin: top right;
 	transform: skew(-5deg);
     z-index: -10;
@@ -484,7 +532,7 @@ body {
 	height: 150px;
     margin-top: 545px;
     margin-left: -115px;
-	background-color: whitesmoke;
+	background-color: rgb(252, 233, 233);
 	transform-origin: bottom left;
 	transform: skew(-5deg, -15deg);
     z-index: -10;
@@ -659,7 +707,7 @@ nav.sticky{
     z-index: 100;
     background-color: #FF2224;
     width: 100%;
-    height: 10%;
+    height: 5%;
 }
 
     @media screen and (max-width: 880px) {
