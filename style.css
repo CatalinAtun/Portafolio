@@ -712,36 +712,6 @@ body {
     margin-top: -2px;
 } 
 
-/* .githubContact {
-    position: absolute;
-    width: 100px;
-    margin-top: 250px;
-    margin-left: 60px
-}
-
-.gmailContact {
-    position: absolute;
-    width: 100px;
-    margin-top: 250px;
-    margin-left: 400px;
-    z-index: 99
-}
-
-.linkedinContact {
-    position: absolute;
-    width: 100px;
-    margin-top: 455px;
-    margin-left: 60px;
-}
-
-.phoneContact {
-    position: absolute;
-    width: 100px;
-    margin-top: 450px;
-    margin-left: 400px;
-    z-index: 99;
-} */
-
 #start {
     position: fixed;
     width: 100%;
@@ -836,11 +806,29 @@ h1{
     margin-left: 75px;
 }
 
-/* GRID */ 
+.aboutMePhotoTextResponsive{
+    display: none;
+}
+
+.skillsResponsivePhoto{
+    display: none;
+}
+
+.bocadilloSkillsResponsive{
+    display: none;
+}
+
+.starProjectsResponsive{
+    display: none;
+}
 
     @media screen and (max-width: 880px) {
 
-        
+    
+    
+    nav.sticky{
+        display: none;
+    }
 
     .title{
         position: relative;
@@ -851,6 +839,15 @@ h1{
         z-index: 100;
         top: 2%;
         left: 0;
+    }
+
+    .bocadillo{
+        position: relative;
+        width: 100%;
+        top: 30%;
+        left: 1%;
+        transform-origin: 50% 50%;
+        transform: rotate(-10deg);
     }
 
     .bocadilloStart {
@@ -869,34 +866,18 @@ h1{
         left: 25%
     }
 
-    nav.sticky {
-        position: fixed;
-        z-index: 100;
-        background-color: #FFDF00;
-        width: 99.2%;
-        height: 7%;
-        border: 1px solid black;
-        top: 0;
-        left: 0;
-    }
-
     .title::after, .aboutMe::after, .aboutMe::before, .aboutMePhotoText, .aboutMeText::after, .aboutMeText::before, .photo2, .skillsPhoto::after, .skillsPhoto::before, .skills::after, .skills::before, .project1::before, .project2::before, .project3::before, .contact::after, .contactPhoto::after{
         display: none;
     }
 
     .aboutMe{
-        position: relative;
-        width: 100%;
-        height: 12.5%;
-        border: 2px solid black;
-        margin-top: 1%;
-        top: 2%;
+        display: none;
     }
 
     .aboutMeText{
         position: relative;
         width: 100%;
-        height: 10.5%;
+        height: 19.5%;
         border: 2px solid black;
         margin-top: 1%;
         top: 2%;
@@ -904,56 +885,142 @@ h1{
         background-color: #FF2224;
     }
 
-    .skillsPhoto{
-        position: relative;
-        width: 100%;
-        height: 10.5%;
-        border: 2px solid black;
-        margin-top: 1%;
-        top: 2%;
-        left: 0;
-        background-color: rgb(37, 123, 150);
-    }
-
-    .skillsPhoto > img {
-        display: none;
+    .aboutMePhotoTextResponsive {
+        display: grid;
+        position: absolute;
+        width: 200px;
+        z-index: 99;
+        margin: 1%;
     }
 
     .skills{
         position: relative;
         width: 100%;
-        height: 10.5%;
+        height: 19.5%;
         border: 2px solid black;
         margin-top: 1%;
         top: 2%;
         left: 0;
-        background-color: rgb(39, 37, 150);
-        background-image: url("./images/textura17.jpg");
+        background-color: rgb(37, 123, 150);
+        background-image: none;
     }
 
-    .skills > img {
+    .bocadilloSkillsResponsive{
+        position: relative;
+        display: grid;
+        width: 35%;
+        left: 15%;
+        transform: rotate(10deg);
+    }
+
+    .skillsResponsivePhoto{
+        position: relative;
+        display: grid;
+        height: 100%;
+        margin-top: -28%
+    }
+
+    .skillsPhoto{
         display: none;
     }
 
-    .project1 > img{
+    .dataLoversTitle{
         display: none;
     }
 
-    .project2 > img{
+    /* DATA LOVERS */ 
+
+    .project3Photo{
+        position: absolute;
+        margin-top: 21.5%;
+        left: 5%;
+        width: 90%;
+        height: 70%;
+    }
+
+    .code3{
         display: none;
     }
 
-    .project3 > img{
+    .demo3{
         display: none;
+    }
+
+    /* CIPHER */ 
+    
+    .cipherTitle{
+        display: none;
+    }
+
+    .project2Photo {
+        position: absolute;
+        margin-top: 21.5%;
+        left: 5%;
+        width: 90%;
+        height: 70%;
+    }
+
+    .codeI2{
+        display: none;
+    }
+
+    .demoI2{
+        display: none;
+    }
+
+
+    /* FRONTERA */
+
+    .fronteraTitle{
+        display: none;
+    }
+
+    .project1Photo {
+        position: absolute;
+        margin-top: 21.5%;
+        left: 5%;
+        width: 90%;
+        height: 70%;
+    }
+
+    .codeI1{
+        display: none;
+    }
+
+    .demoI1{
+        display: none;
+    }
+
+    .starProject{
+        display: none;
+    }
+
+
+
+
+
+
+    
+
+    /* DIVS */ 
+
+    .starProjectsResponsive{
+        display: grid;
+        position: relative;
+        background-color: #00A1D7;
+        width: 100%;
+        height: 2%;
+        border: 2px solid black;
+        top: 2.1%;
     }
 
     .project1{
         position: relative;
         width: 100%;
-        height: 10.5%;
+        height: 18.5%;
         border: 2px solid black;
         margin-top: 1%;
-        top: 2%;
+        top: 2.1%;
         left: 0;
         background-color: rgb(37, 150, 56);
     }
@@ -961,10 +1028,10 @@ h1{
     .project2{
         position: relative;
         width: 100%;
-        height: 10.5%;
+        height: 18.5%;
         border: 2px solid black;
         margin-top: 1%;
-        top: 2%;
+        top: 2.1%;
         left: 0;
         background-color: rgb(150, 37, 93);
     }
@@ -972,10 +1039,10 @@ h1{
     .project3{
         position: relative;
         width: 100%;
-        height: 10.5%;
+        height: 18.5%;
         border: 2px solid black;
         margin-top: 1%;
-        top: 2%;
+        top: 2.1%;
         left: 0;
         background-color: rgb(37, 150, 43);
     }
@@ -983,30 +1050,52 @@ h1{
     .contact{
         position: relative;
         width: 100%;
-        height: 10.5%;
+        height: 19.5%;
         border: 2px solid black;
         margin-top: 1%;
-        top: 2%;
-        left: 0;
-        background-color: rgb(37, 137, 150);
-    }
-
-    .contactPhoto{
-        position: relative;
-        width: 100%;
-        height: 10.5%;
-        border: 2px solid black;
-        margin-top: 1%;
-        top: 2%;
+        top: 2.1%;
         left: 0;
         background-color: rgb(243, 247, 12);
     }
 
-    .contactPhoto > img {
+    .contactTitle{
+        position: relative;
+        width: 80%;
+        left: 10%
+    }
+
+    h1{
+        position: relative;
+        width: 80%;
+        margin-top: 10%
+    }
+
+    .githubContact{
+        position: relative;
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 15%
+    }
+
+    .iGithub{
+        position: relative;
+        width: 100%;
+        margin-top: 30%;
+        margin-left: 15%
+    }
+
+    .linkedinContact{
+        position: relative;
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 15%
+    }
+
+    .contactPhoto{
         display: none;
     }
 
-    .container > img {
+    .contactPhoto > img {
         display: none;
     }
 
