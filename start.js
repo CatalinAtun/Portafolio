@@ -16,9 +16,9 @@ function start(){
     <img class="bocadillo" src="./images/bocadillo.png">
 </div>
 <div class="aboutMe">
+<img class="aboutMePhotoText" src="images/sobreMi.png"> 
 </div>
 <div class="aboutMeText">
-<img class="aboutMePhotoText" src="images/sobreMi.png"> 
 <img class="aboutMePhotoTextResponsive" src="images/sobreMi.png"> 
 </div>
 <div class="skillsPhoto">
@@ -75,7 +75,7 @@ function start(){
 <div class="contact">
     <img class="contactTitle" src="./images/contacto.png">
     <h1>
-    Hola hola hola Hola hola hola Hola hola hola Hola hola hola Hola hola hola 
+    Hey! Puedes contactarme en catalina.camposcaceres9@gmail.com o en alguno de los siguientes links. Hasta la próxima!
     </h1>
     <img class="githubContact" src="./images/githubContacto.png">
     <form action="https://github.com/CatalinaCampos" class="goGithub">
@@ -109,7 +109,7 @@ function projects() {
 }
 
 function contact() {
-    scrollTo(0, 2250)
+    scrollTo(0, 2260)
 }
 
 
