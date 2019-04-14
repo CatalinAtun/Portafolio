@@ -139,7 +139,7 @@
     border: none;
     background-color: #FFDF00;
     padding: 10px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .demo2 {
@@ -222,8 +222,8 @@
 .aboutMePhotoText{
     position: absolute;
     width: 400px;
-    top: -40px;
-    left: -30px;
+    top: 35px;
+    left: 20px;
     z-index: 99;
     transform: rotate(5deg)
 }
@@ -385,7 +385,8 @@ body {
     position: relative;
     width: 695px;
     height: 570px;
-    background-color: whitesmoke;
+    background-image: url("./images/cata.jpg");
+    background-size: 130%;
     -webkit-clip-path: polygon(0 0, 68% 9%, 87% 100%, 0% 100%);
     clip-path: polygon(
     0 2%,
@@ -439,7 +440,7 @@ body {
     left: 698px;
     top: -573px;
     margin-top: 130px;
-    background-color: whitesmoke;
+    background-color: rgb(30, 189, 241);
     width: 624px;
     height: 440px;
     border-right: 2px solid black;
@@ -451,7 +452,7 @@ body {
 	content: "";
 	width: 60px;
 	height: 495px;
-	background-color: whitesmoke;
+	background-color: rgb(30, 189, 241);
     transform-origin: top left;
     margin-top: -61px;
     margin-left: -45.5px;
@@ -467,7 +468,7 @@ body {
 	content: "";
 	width: 625px;
 	height: 200px;
-	background-color: whitesmoke;
+	background-color: rgb(30, 189, 241);
 	transform-origin: top right;
 	transform: skewY(5deg);
     z-index: -10;
@@ -528,7 +529,7 @@ body {
     top: -1286px;
     margin-top: 70px;
     position: relative;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     width: 660px;
     height: 487px;
     border-right: 2px solid black;
@@ -570,7 +571,7 @@ body {
 
 .project1{ 
     position: relative;
-    top: -1045px;
+    top: -1046.5px;
     background-color: whitesmoke;
     width: 430px;
     height: 400px;
@@ -602,7 +603,7 @@ body {
 
 .project2{ 
     position: relative;
-    top: -1727px;
+    top: -1726px;
     left: 445px;
     background-color: whitesmoke;
     width: 430px;
@@ -635,7 +636,7 @@ body {
 
 .project3{ 
     position: relative;
-    top: -2528px;
+    top: -2525.5px;
     left: 890px;
     background-color: whitesmoke;
     width: 430px;
@@ -699,7 +700,7 @@ body {
     top: -3216.5px;
     left: 850px;
     position: relative;
-    background-color: whitesmoke;
+    background-color: rgb(248, 238, 90);
     width: 472px;
     height: 700px;
     border-right: 2px solid black;
@@ -712,7 +713,7 @@ body {
 	content: "";
 	width: 160px;
 	height: 701px;
-	background-color: whitesmoke;
+	background-color: rgb(248, 238, 90);
 	transform-origin: top left;
 	transform: skew(-5deg);
     z-index: -10;
@@ -753,7 +754,9 @@ nav.sticky{
     margin-top: 10px;
     height: 30px;
     font-family: sans-serif;
-    background-color: whitesmoke;
+    background-color: #FFDF00;
+    border-radius: 5px;
+    border: 1px solid black
 }
 
 .githubContact {
@@ -807,7 +810,8 @@ h1{
     z-index: 99;
     font-family: sans-serif;
     margin-top: 190px;
-    margin-left: 40px
+    margin-left: 40px;
+    text-align: center;
 }
 
 .starProject{
@@ -831,6 +835,10 @@ h1{
 
 .starProjectsResponsive{
     display: none;
+}
+
+.container > button {
+    font-family: 'Lato', sans-serif;
 }
 
     @media screen and (max-width: 800px) {
