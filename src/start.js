@@ -19,12 +19,15 @@ function start(){
 </div>
 <div class="aboutMeText">
 <img class="aboutMePhotoText" src="images/sobreMi.png"> 
+<img class="aboutMePhotoTextResponsive" src="images/sobreMi.png"> 
 </div>
 <div class="skillsPhoto">
     <img class="bocadilloSkills" src="images/dialogo.png">
     <img class="photo2" src="images/foto2.png">
 </div>
 <div class="skills">
+<img class="bocadilloSkillsResponsive" src="images/dialogo.png">
+<img class="skillsResponsivePhoto" src="./images/skillsResponsive.png">
     <img class="react" src="images/react.png">
     <img class="js-html-css" src="images/js-html-css.png">
     <img class="bootstrap" src="images/bootstrap.png">
@@ -37,6 +40,7 @@ function start(){
     <img class="slack" src="images/firebase.png">
 </div>
 <img class="projects" src="images/proyectosDestacados.png">
+<div class="starProjectsResponsive"></div>
 <div class="project1">
     <form action="https://github.com/CatalinaCampos/Data-lovers-LOL" class="code3">
         <input class="codeI3" type="submit" value="CÓDIGO" />
@@ -72,7 +76,6 @@ function start(){
     <img class="contactTitle" src="./images/contacto.png">
     <h1>
     Hola hola hola Hola hola hola Hola hola hola Hola hola hola Hola hola hola 
-    Hola hola hola Hola hola hola Hola hola hola Hola hola hola Hola
     </h1>
     <img class="githubContact" src="./images/githubContacto.png">
     <form action="https://github.com/CatalinaCampos" class="goGithub">
