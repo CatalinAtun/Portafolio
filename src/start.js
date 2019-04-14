@@ -4,11 +4,12 @@ const container = document.getElementById("comic");
 function start(){
     document.getElementById("start").style.display="none";
     window.scrollTo(0, 0);
-    container.innerHTML = `<nav class="sticky">
-    <button>Sobre mí</button>
-    <button>Skills</button>
-    <button>Proyectos destacados</button>
-    <button>Contacto</button>
+    container.innerHTML = `
+    <nav class="sticky">
+    <button onclick="aboutMe()">Sobre mí</button>
+    <button onclick="skills()">Skills</button>
+    <button onclick="projects()">Proyectos destacados</button>
+    <button onclick="contact()">Contacto</button>
 </nav>
 
 <div class="title" id="titleID">
@@ -38,30 +39,30 @@ function start(){
 <img class="projects" src="images/proyectosDestacados.png">
 <div class="project1">
     <form action="https://github.com/CatalinaCampos/Data-lovers-LOL" class="code3">
-        <input type="submit" value="CÓDIGO" />
+        <input class="codeI3" type="submit" value="CÓDIGO" />
     </form>
     <form action="https://catalinacampos.github.io/Data-lovers-LOL/" class="demo3">
-        <input type="submit" value="DEMO" />
+        <input class="demoI3" type="submit" value="DEMO" />
     </form>
     <img class="dataLoversTitle" src="images/tituloDataLovers.png">
     <img class="project3Photo" src="images/proyecto3.jpg">
 </div>
 <div class="project2">
     <form action="https://github.com/CatalinaCampos/Cipher" class="code2">
-        <input type="submit" value="CÓDIGO" />
+        <input class="codeI2" type="submit" value="CÓDIGO" />
     </form>
     <form action="https://catalinacampos.github.io/Cipher/" class="demo2">
-        <input type="submit" value="DEMO" />
+        <input class="demoI2" type="submit" value="DEMO" />
     </form>
     <img class="cipherTitle" src="images/tituloCipher.png">
     <img class="project2Photo" src="images/proyecto2.jpg">
 </div>
 <div class="project3">
     <form action="https://github.com/CatalinaCampos/Hackaton-Peliculas" class="code1">
-        <input type="submit" value="CÓDIGO" />
+        <input class="codeI1" type="submit" value="CÓDIGO" />
     </form>
     <form action="https://barbararh.github.io/SCL007-hackathon-peliculas/" class="demo1">
-        <input type="submit" value="DEMO" />
+        <input class="demoI1" type="submit" value="DEMO" />
     </form>
     <img class="fronteraTitle" src="images/tituloFrontera.png">
     <img class="project1Photo" src="images/proyecto1.png">
@@ -75,4 +76,20 @@ function start(){
 
 }
 
+
+function aboutMe() {
+    scrollTo(0, 470)
+}
+
+function skills() {
+    scrollTo(0, 950)
+}
+
+function projects() {
+    scrollTo(0, 1500)
+}
+
+function contact() {
+    scrollTo(0, 2250)
+}
 
