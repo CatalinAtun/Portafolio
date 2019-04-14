@@ -664,7 +664,7 @@ body {
     height: 700px;
     border-left: 2px solid black;
     border-top: 2px solid black;
-    border-bottom: 2px solid black
+    border-bottom: 2px solid black;
 }
 
 .contact::after{ /*diagonal de la izquierda*/
@@ -712,6 +712,36 @@ body {
     margin-top: -2px;
 } 
 
+/* .githubContact {
+    position: absolute;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: 60px
+}
+
+.gmailContact {
+    position: absolute;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: 400px;
+    z-index: 99
+}
+
+.linkedinContact {
+    position: absolute;
+    width: 100px;
+    margin-top: 455px;
+    margin-left: 60px;
+}
+
+.phoneContact {
+    position: absolute;
+    width: 100px;
+    margin-top: 450px;
+    margin-left: 400px;
+    z-index: 99;
+} */
+
 #start {
     position: fixed;
     width: 100%;
@@ -743,6 +773,67 @@ nav.sticky{
     height: 30px;
     font-family: sans-serif;
     background-color: whitesmoke;
+}
+
+.githubContact {
+    position: absolute;
+    z-index: 99;
+    width: 300px;
+    margin-top: 400px;
+    margin-left: 190px;
+}
+
+.goGithub{
+    position: absolute;
+    margin-top: 415px;
+    margin-left: 495px;
+    height: 50px;
+    z-index: 99;
+}
+
+.iGithub{
+    position: absolute;
+    height: 50px;
+    border-radius: 3px;
+}
+
+
+
+.linkedinContact{
+    position: absolute;
+    z-index: 99;
+    width: 300px;
+    margin-top: 525px;
+    margin-left: 190px;
+}
+
+.goLinkedin{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 495px;
+    height: 50px;
+    z-index: 99;
+}
+
+.iLinkedin{
+    position: absolute;
+    height: 50px;
+    border-radius: 3px;
+}
+
+h1{
+    position: absolute;
+    z-index: 99;
+    font-family: sans-serif;
+    margin-top: 190px;
+    margin-left: 40px
+}
+
+.starProject{
+    position: absolute;
+    z-index: 99;
+    margin-top: 500px;
+    margin-left: 75px;
 }
 
 /* GRID */ 

@@ -66,13 +66,29 @@ function start(){
     </form>
     <img class="fronteraTitle" src="images/tituloFrontera.png">
     <img class="project1Photo" src="images/proyecto1.png">
+    <img class="starProject" src="./images/proyectodestacado.png">
 </div>
 <div class="contact">
     <img class="contactTitle" src="./images/contacto.png">
+    <h1>
+    Hola hola hola Hola hola hola Hola hola hola Hola hola hola Hola hola hola 
+    Hola hola hola Hola hola hola Hola hola hola Hola hola hola Hola
+    </h1>
+    <img class="githubContact" src="./images/githubContacto.png">
+    <form action="https://github.com/CatalinaCampos" class="goGithub">
+        <input type="submit" value="IR" class="iGithub" />
+    </form>
+
+    <img class="linkedinContact" src="./images/linkedinContacto.png">
+    <form action="https://www.linkedin.com/in/catalina-campos-366262183/" class="goLinkedin">
+        <input type="submit" value="IR" class="iLinkedin" />
+    </form>
 </div>
 <div class="contactPhoto">
     <img class="photo3" src="images/foto3.png">
-</div>`
+</div>
+`
+
 
 }
 
@@ -92,4 +108,5 @@ function projects() {
 function contact() {
     scrollTo(0, 2250)
 }
+
 
