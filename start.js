@@ -67,6 +67,7 @@ function start(){
     <img class="project1Photo" src="images/proyecto1.png">
 </div>
 <div class="contact">
+    <img class="contactTitle" src="./images/contacto.png">
 </div>
 <div class="contactPhoto">
     <img class="photo3" src="images/foto3.png">
