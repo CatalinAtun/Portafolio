@@ -28,6 +28,7 @@ function start(){
 <div class="skills">
 <img class="bocadilloSkillsResponsive" src="images/dialogo.png">
 <img class="skillsResponsivePhoto" src="./images/skillsResponsive.png">
+<img class="skillsResponsive2" src="./images/skillsResponsive2.png">
     <img class="react" src="images/react.png">
     <img class="js-html-css" src="images/js-html-css.png">
     <img class="bootstrap" src="images/bootstrap.png">
@@ -40,8 +41,9 @@ function start(){
     <img class="slack" src="images/firebase.png">
 </div>
 <img class="projects" src="images/proyectosDestacados.png">
-<div class="starProjectsResponsive"></div>
 <div class="project1">
+<img class="projects1" src="images/proyectosDestacadosR.png">
+<img class="dlResponsive" src="./images/dataloversResponsive.png">
     <form action="https://github.com/CatalinaCampos/Data-lovers-LOL" class="code3">
         <input class="codeI3" type="submit" value="CÓDIGO" />
     </form>
@@ -52,6 +54,7 @@ function start(){
     <img class="project3Photo" src="images/proyecto3.jpg">
 </div>
 <div class="project2">
+<img class="cResponsive" src="./images/cipherResponsive.png">
     <form action="https://github.com/CatalinaCampos/Cipher" class="code2">
         <input class="codeI2" type="submit" value="CÓDIGO" />
     </form>
@@ -62,6 +65,7 @@ function start(){
     <img class="project2Photo" src="images/proyecto2.jpg">
 </div>
 <div class="project3">
+<img class="fResponsive" src="./images/fronteraResponsive.png">
     <form action="https://github.com/CatalinaCampos/Hackaton-Peliculas" class="code1">
         <input class="codeI1" type="submit" value="CÓDIGO" />
     </form>
@@ -75,7 +79,7 @@ function start(){
 <div class="contact">
     <img class="contactTitle" src="./images/contacto.png">
     <h1>
-    Hey! Puedes contactarme en catalina.camposcaceres9@gmail.com o en alguno de los siguientes links. Hasta la próxima!
+    
     </h1>
     <img class="githubContact" src="./images/githubContacto.png">
     <form action="https://github.com/CatalinaCampos" class="goGithub">
