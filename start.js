@@ -19,7 +19,16 @@ function start(){
 <img class="aboutMePhotoText" src="images/sobreMi.png"> 
 </div>
 <div class="aboutMeText">
-<img class="aboutMePhotoTextResponsive" src="images/sobreMi.png"> 
+<img class="aboutMePhotoTextResponsive" src="images/sobreMi.png">
+<p class="pAboutMe"> 
+Hola! Me llamo Catalina Campos, tengo 20
+años y soy Front end Developer egresada de
+la generación 7 de Laboratoria. Me caracterizo 
+por ser una persona con visión y pensamiento 
+creativo, dispuesta a dar todo de su parte 
+para cumplir sus objetivos. En mi tiempo libre 
+me gusta aprender cosas nuevas
+</p>
 </div>
 <div class="skillsPhoto">
     <img class="bocadilloSkills" src="images/dialogo.png">
@@ -78,18 +87,19 @@ function start(){
 </div>
 <div class="contact">
     <img class="contactTitle" src="./images/contacto.png">
-    <h1>
+    <p class="pContact">
+    ¿Tienes una idea? Estoy disponible para trabajar. Contactame
+    <h5><a href="mailto:catalina.camposcaceres9@gmail.com">catalina.camposcaceres9@gmail.com</a></h5>
+    </p>
     
-    </h1>
-    <img class="githubContact" src="./images/githubContacto.png">
     <form action="https://github.com/CatalinaCampos" class="goGithub">
-        <input type="submit" value="IR" class="iGithub" />
+        <input type="image" src="./images/GitHub-Mark.png" class="iGithub" />
     </form>
 
-    <img class="linkedinContact" src="./images/linkedinContacto.png">
     <form action="https://www.linkedin.com/in/catalina-campos-366262183/" class="goLinkedin">
-        <input type="submit" value="IR" class="iLinkedin" />
+        <input type="image" src="./images/linkedin.png" class="iLinkedin" />
     </form>
+    
 </div>
 <div class="contactPhoto">
     <img class="photo3" src="images/foto3.png">
@@ -101,7 +111,7 @@ function start(){
 
 
 function aboutMe() {
-    scrollTo(0, 470)
+    scrollTo(0, 410)
 }
 
 function skills() {

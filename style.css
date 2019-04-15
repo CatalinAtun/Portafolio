@@ -683,7 +683,7 @@ body {
     position: absolute;
 	content: "";
 	width: 530px;
-	height: 700px;
+	height: 701px;
 	background-color: whitesmoke;
 	transform-origin: top left;
 	transform: skew(-5deg);
@@ -692,7 +692,7 @@ body {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     margin-left: 250px;
-    margin-top: -2px;
+    margin-top: -18.5px;
 } 
 
 .contactPhoto{
@@ -737,14 +737,14 @@ body {
 nav.sticky{
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 50px;
     grid-gap: 20px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #FF2224;
+    background-color: rgb(253, 37, 40);
     width: 100%;
-    height: 9%;
     justify-content: space-evenly;
     border: 2px solid black;
 }
@@ -754,9 +754,10 @@ nav.sticky{
     margin-top: 10px;
     height: 30px;
     font-family: sans-serif;
-    background-color: #FFDF00;
+    background-color: rgb(250, 228, 84);
     border-radius: 5px;
-    border: 1px solid black
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 .githubContact {
@@ -770,15 +771,27 @@ nav.sticky{
 .goGithub{
     position: absolute;
     margin-top: 415px;
-    margin-left: 495px;
+    margin-left: 250px;
     height: 50px;
     z-index: 99;
 }
 
 .iGithub{
     position: absolute;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 3px;
+}
+
+h5{
+    position: absolute;
+    z-index: 99;
+    font-family: sans-serif;
+    margin-top: 305px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 
@@ -793,25 +806,39 @@ nav.sticky{
 
 .goLinkedin{
     position: absolute;
-    margin-top: 540px;
-    margin-left: 495px;
+    margin-top: 415px;
+    margin-left: 400px;
     height: 50px;
     z-index: 99;
 }
 
 .iLinkedin{
     position: absolute;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 3px;
 }
 
-h1{
+.pContact{
     position: absolute;
     z-index: 99;
     font-family: sans-serif;
     margin-top: 190px;
     margin-left: 40px;
     text-align: center;
+    font-size: 30px;
+}
+
+.pAboutMe{
+    position: absolute;
+    z-index: 99;
+    left: 50px;
+    top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .starProject{
@@ -856,6 +883,11 @@ h1{
 
 
     @media screen and (max-width: 800px) {
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-size: 25px;
+        }
 
         nav.sticky{
             display: none;
@@ -991,6 +1023,7 @@ h1{
             max-height: 100px;
             top: 5%;
             left: 0;
+            z-index: 99;
         }
     
         .project3Photo{
@@ -1048,6 +1081,7 @@ h1{
             max-height: 100px;
             top: 5%;
             left: 0;
+            z-index: 99;
         }
         
         .cipherTitle{
@@ -1101,6 +1135,7 @@ h1{
             max-height: 100px;
             top: 5%;
             left: 0;
+            z-index: 99;
         }
     
         .project1Photo {
