@@ -837,9 +837,23 @@ h1{
     display: none;
 }
 
+.skillsResponsive2{
+    display: none;
+}
+
+.projects1{
+    display: none;
+}
+
+.dlResponsive, .cResponsive, .fResponsive{
+    display: none;
+}
+
+
 .container > button {
     font-family: 'Lato', sans-serif;
 }
+
 
     @media screen and (max-width: 800px) {
 
@@ -849,17 +863,18 @@ h1{
 
         .container{
             max-width: 800px;
+            left: 0;
+            top: 0;
         }
     
         .title{
             position: relative;
+            background-color: rgb(245, 235, 92);
             width: 100%;
             height: auto;
             border: 2px solid black;
-            background-image: url("./images/textura16.jpg");
-            z-index: 100;
-            top: 2%;
-            left: 0;
+            margin-top: 1%;
+            background: url("./images/comic.jpg") 0 0 no-repeat
         }
     
         .bocadillo{
@@ -901,15 +916,15 @@ h1{
             height: 19.5%;
             border: 2px solid black;
             margin-top: 1%;
-            top: 2%;
+            top: 0;
             left: 0;
             background-color: #FF2224;
         }
     
-        .aboutMePhotoTextResponsive {
-            display: grid;
+        .aboutMePhotoTextResponsive { /* Viñeta 'sobre mi' */
+            display: inline;
             position: absolute;
-            width: 200px;
+            width: 70%;
             z-index: 99;
             margin: 1%;
         }
@@ -920,26 +935,42 @@ h1{
             height: 19.5%;
             border: 2px solid black;
             margin-top: 1%;
-            top: 2%;
+            top: 0;
             left: 0;
             background-color: rgb(37, 123, 150);
             background-image: none;
         }
 
     
-        .bocadilloSkillsResponsive{
-            position: relative;
+        .bocadilloSkillsResponsive{ /* bocadillo 'skills' */ 
+            position: absolute;
             display: grid;
             width: 35%;
-            left: 15%;
             transform: rotate(10deg);
+            position: absolute;
+            display: grid;
+            left: 10%;
+            top: -10%;
+            z-index: 100;
         }
     
         .skillsResponsivePhoto{
-            position: relative;
+            position: absolute;
             display: grid;
+            width: 40%;
             height: 100%;
-            margin-top: -28%
+            left: 0;
+            top: 0.3%;
+        }
+
+        .skillsResponsive2{
+            display: grid;
+            position: absolute;
+            display: grid;
+            width: 60%;
+            height: 90%;
+            left: 35%;
+            top: 5%;
         }
     
         .skillsPhoto{
@@ -951,6 +982,16 @@ h1{
         }
     
         /* DATA LOVERS */ 
+
+        .dlResponsive{
+            display: grid;
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            max-height: 100px;
+            top: 5%;
+            left: 0;
+        }
     
         .project3Photo{
             position: relative;
@@ -987,8 +1028,27 @@ h1{
         .projects{
             display: none;
         }
+
+        .projects1{
+            display: grid;
+            position: absolute;
+            width: 30%;
+            left: 5%;
+            top: -15%;
+            z-index: 100
+        }
     
         /* CIPHER */ 
+
+        .cResponsive{
+            position: absolute;
+            display: grid;
+            width: 100%;
+            height: 10%;
+            max-height: 100px;
+            top: 5%;
+            left: 0;
+        }
         
         .cipherTitle{
             display: none;
@@ -1031,6 +1091,16 @@ h1{
     
         .fronteraTitle{
             display: none;
+        }
+
+        .fResponsive{
+            position: absolute;
+            display: grid;
+            width: 100%;
+            height: 10%;
+            max-height: 100px;
+            top: 5%;
+            left: 0;
         }
     
         .project1Photo {
@@ -1076,25 +1146,15 @@ h1{
     
         
     
-        /* DIVS */ 
-    
-        .starProjectsResponsive{
-            display: grid;
-            position: relative;
-            background-color: #00A1D7;
-            width: 100%;
-            height: 2%;
-            border: 2px solid black;
-            top: 2.1%;
-        }
+        /* DIVS */
     
         .project1{
             position: relative;
             width: 100%;
             height: 18.5%;
             border: 2px solid black;
-            margin-top: 1%;
-            top: 2.1%;
+            margin-top: 1.5%;
+            top: 0;
             left: 0;
             background-color: rgb(37, 150, 56);
         }
@@ -1104,8 +1164,8 @@ h1{
             width: 100%;
             height: 18.5%;
             border: 2px solid black;
-            margin-top: 1%;
-            top: 2.1%;
+            margin-top: 1.5%;
+            top: 0;
             left: 0;
             background-color: rgb(150, 37, 93);
         }
@@ -1115,8 +1175,8 @@ h1{
             width: 100%;
             height: 18.5%;
             border: 2px solid black;
-            margin-top: 1%;
-            top: 2.1%;
+            margin-top: 1.5%;
+            top: 0;
             left: 0;
             background-color: rgb(37, 150, 43);
         }
@@ -1127,7 +1187,7 @@ h1{
             height: 19.5%;
             border: 2px solid black;
             margin-top: 1%;
-            top: 2.1%;
+            top: 0;
             left: 0;
             background-color: rgb(243, 247, 12);
         }
@@ -1136,7 +1196,6 @@ h1{
             position: relative;
             width: 80%;
             left: 10%;
-            display: flex;
         }
     
         h1{
