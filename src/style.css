@@ -39,9 +39,16 @@
 
 .startButton {
     position: relative;
-    width: 30%;
-    top: 85%;
-    left: 35%
+    top: 70%;
+    left: 45%;
+    border: none;
+    height: 30px;
+    width: 10%;
+    font-family: sans-serif;
+    background-color: rgb(250, 228, 84);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 .photo2 { /* Skills foto */
@@ -112,10 +119,12 @@
     position: absolute;
     top: 430px;
     left: 105px;
-    border: none;
     background-color: #FF2224;
     padding: 10px;
-    border-radius: 5px
+
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 .demo1{
@@ -123,10 +132,12 @@
     position: absolute;
     top: 430px;
     left: 220px;
-    border: none;
     background-color: #FF2224;
     padding: 10px;
-    border-radius: 5px
+
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 
@@ -139,7 +150,10 @@
     border: none;
     background-color: #FFDF00;
     padding: 10px;
+
     border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 .demo2 {
@@ -149,7 +163,10 @@
     border: none;
     background-color: #FFDF00;
     padding: 10px;
-    border-radius: 5px
+
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 /* DATA LOVERS */ 
@@ -159,10 +176,13 @@
     top: 344px;
     left: 100px;
     font-family: 'Lato', sans-serif;
-    border: none;
     background-color: #00A1D7;
     padding: 10px;
-    border-radius: 5px
+
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 .demo3{
@@ -170,10 +190,13 @@
     top: 344px;
     left: 220px;
     font-family: 'Lato', sans-serif;
-    border: none;
     background-color: #00A1D7;
     padding: 10px;
-    border-radius: 5px
+
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 .codeI3, .demoI3 {
@@ -352,6 +375,7 @@ body {
 .container {
     transform-origin: 0 0;
     height: 3030px;
+    width: auto;
 }
 
 .title{
