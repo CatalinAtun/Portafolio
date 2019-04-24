@@ -29,6 +29,16 @@ creativo, dispuesta a dar todo de su parte
 para cumplir sus objetivos. En mi tiempo libre 
 me gusta aprender cosas nuevas
 </p>
+
+<p class="pAboutMeResponsive"> 
+Hola! Me llamo Catalina Campos, tengo 20
+años y soy Front end Developer egresada de
+la generación 7 de Laboratoria. Me caracterizo 
+por ser una persona con visión y pensamiento 
+creativo, dispuesta a dar todo de su parte 
+para cumplir sus objetivos. En mi tiempo libre 
+me gusta aprender cosas nuevas
+</p>
 </div>
 <div class="skillsPhoto">
     <img class="bocadilloSkills" src="images/dialogo.png">
@@ -89,7 +99,12 @@ me gusta aprender cosas nuevas
     <img class="contactTitle" src="./images/contacto.png">
     <p class="pContact">
     ¿Tienes una idea? Estoy disponible para trabajar. Contactame
-    <h5><a href="mailto:catalina.camposcaceres9@gmail.com">catalina.camposcaceres9@gmail.com</a></h5>
+    <h5 class="email"><a href="mailto:catalina.camposcaceres9@gmail.com">catalina.camposcaceres9@gmail.com</a></h5>
+    </p>
+
+    <p class="pContactResponsive">
+    ¿Tienes una idea? Estoy disponible para trabajar. Contactame
+    <h5 class="emailResponsive" ><a href="mailto:catalina.camposcaceres9@gmail.com">catalina.camposcaceres9@gmail.com</a></h5>
     </p>
     
     <form action="https://github.com/CatalinaCampos" class="goGithub">
