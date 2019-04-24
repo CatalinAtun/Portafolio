@@ -104,7 +104,7 @@ me gusta aprender cosas nuevas
 
     <p class="pContactResponsive">
     ¿Tienes una idea? Estoy disponible para trabajar. Contactame
-    <h5 class="emailResponsive" ><a href="mailto:catalina.camposcaceres9@gmail.com">catalina.camposcaceres9@gmail.com</a></h5>
+    <input class="emailButtonResponsive" type="button" value="Enviar un email" onclick="parent.location='mailto:catalina.camposcaceres9@gmail.com'">
     </p>
     
     <form action="https://github.com/CatalinaCampos" class="goGithub">
