@@ -759,7 +759,7 @@ body {
 
 nav.sticky{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 15% 15% auto 15%;
     grid-template-rows: 50px;
     grid-gap: 20px;
     position: fixed;
@@ -899,13 +899,29 @@ h5{
     display: none;
 }
 
+.pAboutMeResponsive{
+    display: none;
+}
+
+.pContactResponsive{
+    display: none;
+}
+
+.email{
+    position: absolute;
+    margin-left: 60px
+}
 
 .container > button {
     font-family: 'Lato', sans-serif;
 }
 
+.emailResponsive{
+    display: none;
+}
 
-    @media screen and (max-width: 800px) {
+
+    @media screen and (max-width: 550px) {
 
         h1 {
             font-family: 'Lato', sans-serif;
@@ -973,15 +989,29 @@ h5{
             margin-top: 1%;
             top: 0;
             left: 0;
-            background-color: #FF2224;
+            background-color: rgb(30, 189, 241);
         }
     
-        .aboutMePhotoTextResponsive { /* Viñeta 'sobre mi' */
-            display: inline;
+        .aboutMePhotoTextResponsive{ /* Viñeta 'sobre mi' */
+            display: grid;
             position: absolute;
             width: 70%;
-            z-index: 99;
+            z-index: 100;
             margin: 1%;
+        }
+
+        .pAboutMeResponsive{
+            display: grid;
+            margin-top: 20%;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 150%;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .pAboutMe{
+            display: none;
         }
     
         .skills{
@@ -992,7 +1022,7 @@ h5{
             margin-top: 1%;
             top: 0;
             left: 0;
-            background-color: rgb(37, 123, 150);
+            background-color: whitesmoke;
             background-image: none;
         }
 
@@ -1067,7 +1097,7 @@ h5{
             max-width: 200px;
             display: flex;
             float: left;
-            margin-left: 10%
+            margin-left: 10%;
         }
     
         .demo3{
@@ -1141,6 +1171,10 @@ h5{
             display: flex;
             float: right;
             margin-right: 10%;
+        }
+
+        .demoI2{
+            text-align: center;
         }
     
     
@@ -1283,6 +1317,32 @@ h5{
         }
     
         .contactPhoto > img {
+            display: none;
+        }
+
+        .pContactResponsive{
+            display: grid;
+            font-size: 150%;
+            margin-top: 15%;
+            text-align: center;
+        }
+
+        .emailResponsive{
+            display: grid;
+            position: absolute;
+            margin-top: 10%;
+            margin-left: 5%;
+            font-size: 90%;
+            text-align: center;
+        }
+
+        .pContact{
+            display: none;
+        }
+
+        
+
+        .email{
             display: none;
         }
 
