@@ -1322,6 +1322,7 @@ h5{
 
         .pContactResponsive{
             display: grid;
+            position: relative;
             font-size: 150%;
             margin-top: 15%;
             text-align: center;
@@ -1331,9 +1332,8 @@ h5{
             display: grid;
             position: absolute;
             margin-top: 10%;
-            margin-left: 5%;
+            margin: 5%;
             font-size: 90%;
-            text-align: center;
         }
 
         .pContact{
