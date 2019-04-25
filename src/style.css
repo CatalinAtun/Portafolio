@@ -928,6 +928,10 @@ h5{
     display: none;
 }
 
+.projectsStar{
+    display: none;
+}
+
 
     @media screen and (max-width: 550px) {
 
@@ -1137,6 +1141,15 @@ h5{
 
         .projects{
             display: none;
+        }
+
+        .projectsStar{
+            display: grid;
+            background-color: rgb(253, 37, 40);
+            width: 100%;
+            height: 3%;
+            margin-top: 1.5%;
+            border: 2px solid black;
         }
 
         .projects1{
