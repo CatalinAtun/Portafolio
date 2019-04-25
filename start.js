@@ -60,8 +60,10 @@ me gusta aprender cosas nuevas
     <img class="slack" src="images/firebase.png">
 </div>
 <img class="projects" src="images/proyectosDestacados.png">
+
+<div class="projectsStar">PROYECTOS DESTACADOS</div>
+
 <div class="project1">
-<img class="projects1" src="images/proyectosDestacadosR.png">
 <img class="dlResponsive" src="./images/dataloversResponsive.png">
     <form action="https://github.com/CatalinaCampos/Data-lovers-LOL" class="code3">
         <input class="codeI3" type="submit" value="CÓDIGO" />
