@@ -39,11 +39,11 @@
 
 .startButton {
     position: relative;
-    top: 70%;
+    top: 80%;
     left: 45%;
     border: none;
     height: 30px;
-    width: 10%;
+    width: auto;
     font-family: sans-serif;
     background-color: rgb(250, 228, 84);
     border-radius: 5px;
@@ -920,8 +920,27 @@ h5{
     display: none;
 }
 
+.timeToCodeResponsive{
+    display: none;
+}
+
+.bocadilloStartResponsive{
+    display: none;
+}
+
 
     @media screen and (max-width: 550px) {
+
+        .timeToCodeResponsive{
+            position: absolute;
+            display: grid;
+            margin-left: 65%;
+            margin-top: 20%;
+        }
+
+        .timeToCode{
+            display: none;
+        }
 
         h1 {
             font-family: 'Lato', sans-serif;
@@ -957,7 +976,8 @@ h5{
             transform: rotate(-10deg);
         }
     
-        .bocadilloStart {
+        .bocadilloStartResponsive{
+            display: grid;
             position: relative;
             width: 100%;
             top: 30%;
@@ -965,12 +985,16 @@ h5{
             transform-origin: 50% 50%;
             transform: rotate(-10deg);
         }
+
+        .bocadilloStart{
+            display: none;
+        }
     
         .startButton{
             position: relative;
-            width: 50%;
+            width: auto;
             top: 37%;
-            left: 25%
+            left: 35%
         }
     
         .title::after, .aboutMe::after, .aboutMe::before, .aboutMePhotoText, .aboutMeText::after, .aboutMeText::before, .photo2, .skillsPhoto::after, .skillsPhoto::before, .skills::after, .skills::before, .project1::before, .project2::before, .project3::before, .contact::after, .contactPhoto::after{
