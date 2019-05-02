@@ -1,5 +1,9 @@
 /* 1340 / 640 = 2.09 */
 
+@font-face {
+    font-family: "KOMIKAX";
+    src: url(./images/KOMIKAX_.ttf) format("truetype");
+}
 
     @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
     /* ----------------------------------------------
@@ -932,6 +936,9 @@ h5{
     display: none;
 }
 
+.aboutMeResponsive{
+    display: none;
+}
 
     @media screen and (max-width: 550px) {
 
@@ -1001,18 +1008,29 @@ h5{
             left: 35%
         }
     
-        .title::after, .aboutMe::after, .aboutMe::before, .aboutMePhotoText, .aboutMeText::after, .aboutMeText::before, .photo2, .skillsPhoto::after, .skillsPhoto::before, .skills::after, .skills::before, .project1::before, .project2::before, .project3::before, .contact::after, .contactPhoto::after{
+        .title::after, .aboutMe::after, .aboutMe::before, .aboutMeText::after, .aboutMeText::before, .photo2, .skillsPhoto::after, .skillsPhoto::before, .skills::after, .skills::before, .project1::before, .project2::before, .project3::before, .contact::after, .contactPhoto::after{
             display: none;
         }
     
+
         .aboutMe{
             display: none;
+        }
+
+        .aboutMeResponsive{
+            display: grid;
+            position: relative;
+            margin-top: 1.5%;
+            border: 2px solid black;
+            width: 100%;
+            height: 367px;
+            background: url('./images/fotoportafolio.jpg');
         }
     
         .aboutMeText{
             position: relative;
             width: 100%;
-            height: 19.5%;
+            height: auto;
             border: 2px solid black;
             margin-top: 1%;
             top: 0;
@@ -1074,6 +1092,13 @@ h5{
             height: 100%;
             left: 0;
             top: 0.3%;
+        }
+
+        .projectsStarResponsive{
+            font-size: 190%;
+            text-align: center;
+            font-family: KOMIKAX; 
+            color: yellow;
         }
 
         .skillsResponsive2{
@@ -1147,7 +1172,7 @@ h5{
             display: grid;
             background-color: rgb(253, 37, 40);
             width: 100%;
-            height: 3%;
+            height: auto;
             margin-top: 1.5%;
             border: 2px solid black;
         }

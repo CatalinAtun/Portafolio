@@ -18,6 +18,8 @@ function start(){
 <div class="aboutMe">
 <img class="aboutMePhotoText" src="images/sobreMi.png"> 
 </div>
+<div class="aboutMeResponsive">
+</div>
 <div class="aboutMeText">
 <img class="aboutMePhotoTextResponsive" src="images/sobreMi.png">
 <p class="pAboutMe"> 
@@ -61,7 +63,7 @@ me gusta aprender cosas nuevas
 </div>
 <img class="projects" src="images/proyectosDestacados.png">
 
-<div class="projectsStar">PROYECTOS DESTACADOS</div>
+<div class="projectsStar"><p class="projectsStarResponsive">PROYECTOS DESTACADOS</p></div>
 
 <div class="project1">
 <img class="dlResponsive" src="./images/dataloversResponsive.png">
