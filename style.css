@@ -478,7 +478,7 @@ body {
     position: absolute;
 	content: "";
 	width: 60px;
-	height: 495px;
+	height: 497px;
 	background-color: rgb(30, 189, 241);
     transform-origin: top left;
     margin-top: -61px;
@@ -522,7 +522,7 @@ body {
     position: absolute;
 	content: "";
 	width: 530px;
-	height: 700px;
+	height: 695px;
 	background-color: #E11E26;
 	transform-origin: top left;
 	transform: skew(-5deg);
@@ -536,7 +536,7 @@ body {
 .skillsPhoto::before{ /*diagonal del top*/
 	position: absolute;
 	content: "";
-	width: 530px;
+	width: 534px;
 	height: 355px;
 	background-color: #E11E26;
 	transform-origin: top right;
@@ -582,7 +582,7 @@ body {
 .skills::before{
     position: absolute;
 	content: "";
-	width: 763px;
+	width: 775px;
 	height: 150px;
     margin-top: 545px;
     margin-left: -115px;
@@ -739,7 +739,7 @@ body {
     position: absolute;
 	content: "";
 	width: 160px;
-	height: 701px;
+	height: 700px;
 	background-color: rgb(248, 238, 90);
 	transform-origin: top left;
 	transform: skew(-5deg);
